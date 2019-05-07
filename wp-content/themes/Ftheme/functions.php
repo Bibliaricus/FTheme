@@ -80,4 +80,19 @@ if ( ! function_exists( 'ftheme_setup' ) ) {
   add_action( 'after_theme_setup', 'alpha_setup' );
 }
 
+/**
+ * 5.0 - Display meta information for a specific post.
+ */
+if ( ! function_exists( 'ftheme_post_meta' ) ) {
+  function ftheme_post_meta() {
+    echo '<ul class="list-inline entry-meta">';
+
+    if ( get_post_type() === 'post' ) {
+      // If the post is sticky, mark it.
+      if ( is_sticky() ) {
+        echo '<li class="meta-featured-post"><i class="fa fa-thumb-tack"></i>' . __( 'Sticky', 'ftheme' ) . '</li>';
+      }
+    }
+  }
+}
 ?>

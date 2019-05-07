@@ -21,5 +21,11 @@
       <?php else : ?>
         <h1><a href="<?php the_permalink();?>" rel="bookmark"><?php the_title(); ?></a></h1>
       <?php endif; ?>
-  </header> 
+      <p class="enty-meta">
+        <?php
+          // Display the meta information
+          ftheme_post_meta();
+        ?>
+      </p>
+  </header> <!-- end enty-header -->
 </article>
