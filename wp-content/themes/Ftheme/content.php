@@ -21,7 +21,7 @@
       <?php else : ?>
         <h1><a href="<?php the_permalink();?>" rel="bookmark"><?php the_title(); ?></a></h1>
       <?php endif; ?>
-      <p class="enty-meta">
+      <p class="entry-meta">
         <?php
           // Display the meta information
           ftheme_post_meta();
