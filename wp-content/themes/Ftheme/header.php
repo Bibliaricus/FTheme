@@ -6,7 +6,7 @@
  */
 ?>
 
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <!-- [if IE 8]> <html <?php language_attributes(); ?> class="ie8"> <![endif] -->
 <!-- [if !IE 8]><!--> <html <?php language_attributes(); ?>> <!--<![endif] -->
 <head>
