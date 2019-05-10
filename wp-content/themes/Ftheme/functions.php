@@ -131,4 +131,25 @@ if ( ! function_exists( 'ftheme_post_meta' ) ) {
     }
   }
 }
-?>
+
+  /** 
+   * Display navigation to the next/previous set of posts.
+   */
+  if ( ! function_exists( 'ftheme_paging_nav' ) ) {
+    function ftheme_paging_nav() { ?>
+    <ul>
+      <?php
+        if ( get_previous_posts_link() ) : ?>
+        <li class="next">
+          <?php previous_posts_link( __('Newer Posts &rarr;', 'ftheme' ) ); ?>
+        </li>
+        <?php endif; ?>
+        <?php
+        if ( get_next_posts_link() ) : ?>
+        <li class="previous">
+          <?php next_posts_link( __('&larr; Older Posts', 'ftheme' ) ); ?>
+        </li>
+        <?php endif; ?>
+    </ul> <?php
+    }
+  }?>
