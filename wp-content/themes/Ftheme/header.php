@@ -39,7 +39,29 @@
 
   <?php wp_head(); ?>
 </head>
-<body>
-  
-</body>
-</html>
+<body class="<?php body_class(); ?>">
+
+  <!-- HEADER -->
+  <header class="site-banner" role="banner">
+    <div class="container header-contents">
+      <div class="row">
+        <div class="col-3">
+          <div class="site-logo">
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></a>
+          </div>
+        </div>
+        <div class="col-9">
+          <nav class="site-navigation" role="navigation">
+            <?php
+              wp_nav_menu(
+                array(
+                  'theme_location' => 'main-menu',
+                  'menu_class' => 'site-menu'
+                )
+              );
+            ?>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
