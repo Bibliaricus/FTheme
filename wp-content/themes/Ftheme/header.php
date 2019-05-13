@@ -62,6 +62,10 @@
             ?>
           </nav>
         </div>
-      </div>
+      </div>      
     </div>
   </header>
+
+  <!-- Main content area -->
+  <div class="container">
+    <div class="row">      
