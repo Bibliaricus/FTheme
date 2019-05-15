@@ -14,7 +14,6 @@
 
       <?php comments_template(); ?>
     <?php endwhile; ?>
-    <?php comments_template(); ?>
   </div>
 
 <?php get_sidebar(); ?>
