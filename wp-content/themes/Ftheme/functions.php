@@ -133,7 +133,7 @@ if ( ! function_exists( 'ftheme_post_meta' ) ) {
 }
 
   /** 
-   * Display navigation to the next/previous set of posts.
+   * 6.0 - Display navigation to the next/previous set of posts.
    */
   if ( ! function_exists( 'ftheme_paging_nav' ) ) {
     function ftheme_paging_nav() { ?>
@@ -151,5 +151,39 @@ if ( ! function_exists( 'ftheme_post_meta' ) ) {
         </li>
         <?php endif; ?>
     </ul> <?php
-    }
-  }?>
+    }    
+  }
+  
+  /**
+   * 7.0 - Register the widget areas.  
+   */
+   if ( ! function_exists( 'ftheme_widget_init' ) ) {
+     function ftheme_widget_init() {
+      if ( function_exists( 'register_sidebar' ) ) {
+        register_sidebar(
+          array(
+            'name' => __( 'Main Widget Area', 'ftheme' ),
+            'id' => 'sidebar-1',
+            'description' => __( 'Appears on posts and pages', 'ftheme' ),
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'aftet_widget' => '</div> <!-- end widget -->',
+            'before_title' => '<h5 class="widget-title">',
+            'after_title' => '</h5>',
+          )
+        );
+        register_sidebar(
+          array(
+            'name' => __( 'Footer Widget Area', 'ftheme' ),
+            'id' => 'sidebar-2',
+            'description' => __( 'Appears on the footer', 'ftheme' ),
+            'before_widget' => '<div id="%1$s" class="widget col-sm-3 %2$s">',
+            'aftet_widget' => '</div> <!-- end widget -->',
+            'before_title' => '<h5 class="widget-title">',
+            'after_title' => '</h5>',
+          )
+        );
+      }
+     }
+     add_action( 'widgets_init', 'ftheme_widget_init' );
+   }
+  ?>
