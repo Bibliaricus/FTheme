@@ -210,4 +210,23 @@ if ( ! function_exists( 'ftheme_post_meta' ) ) {
     }
     add_action( 'wp_head', 'ftheme_load_wp_head' );
   }
+
+  /**
+   * 9.0 - Load the custom scripts for the theme.
+   */
+
+   if ( ! function_exists( 'ftheme_scripts' ) ) {
+     function ftheme_scripts() {
+      //  Adds support for pages with threaded comments
+      if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+        wp_enqueue_script( 'comment-reply' );
+      }
+
+      // Register scripts
+      wp_register_script( 'bootstrap-min-js', SCRIPTS . '/bootstrap.min.js', array( 'jquery' ), false, true );
+      wp_register_script( 'ftheme-custom-scripts', SCRIPTS . '/script.js', array( 'jquery' ), false, true );
+     }
+
+     add_action( 'wp_enqueue_scripts', 'ftheme_scripts' );
+   }
   ?>
