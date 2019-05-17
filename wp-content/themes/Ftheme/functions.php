@@ -235,7 +235,7 @@ if ( ! function_exists( 'ftheme_post_meta' ) ) {
       //  Load the stylesheets
       wp_enqueue_style( 'bootstrap-min-css', STYLES . '/bootstrap.min.css' );
       wp_enqueue_style( 'animate-min-css', STYLES . '/animate.min.css' );
-      wp_enqueue_style( 'style-css', STYLES . '/style.css' );
+      wp_enqueue_style( 'style-css', THEMEROOT );
 
      add_action( 'wp_enqueue_scripts', 'ftheme_scripts' );
    }
