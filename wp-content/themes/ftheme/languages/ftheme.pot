@@ -1,0 +1,231 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Ftheme\n"
+"POT-Creation-Date: 2019-05-17 15:37+0300\n"
+"PO-Revision-Date: 2019-05-17 15:36+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:12
+msgid "Error 404 - Nothing Found"
+msgstr ""
+
+#: 404.php:14
+msgid "It looks like nothing was found here. Maybe try a search?"
+msgstr ""
+
+#: archive.php:17
+#, php-format
+msgid "Daily Archives for %s"
+msgstr ""
+
+#: archive.php:19
+#, php-format
+msgid "Monthly Archives for %s"
+msgstr ""
+
+#: archive.php:19
+msgctxt "Monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:21
+#, php-format
+msgid "Yearly Archives for %s"
+msgstr ""
+
+#: archive.php:21
+msgctxt "Yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:23
+msgid "Archives"
+msgstr ""
+
+#: author.php:15
+#, php-format
+msgid "All posts by %s."
+msgstr ""
+
+#: category.php:16
+#, php-format
+msgid "Category Archives for &quot;%s&quot;"
+msgstr ""
+
+#: comments.php:12
+msgid "You cannot access this page directly."
+msgstr ""
+
+#: comments.php:21
+msgid ""
+"This post is password protected. Enter the password to view the comments."
+msgstr ""
+
+#: comments.php:33
+#, php-format
+msgctxt "Comment title"
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:47
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:50
+msgid "Never Comments &rarr;"
+msgstr ""
+
+#: comments.php:59
+msgid "Comments are closed"
+msgstr ""
+
+#: content-audio.php:29 content-gallery.php:29 content-image.php:29
+#: content-link.php:13 content-quote.php:13 content-video.php:29 content.php:38
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: content-audio.php:40 content-gallery.php:40 content-image.php:40
+#: content-link.php:31 content-video.php:40 content.php:50
+msgid "Written by "
+msgstr ""
+
+#: content-none.php:8
+msgid "Nothing found!"
+msgstr ""
+
+#: footer.php:19
+msgid "All right reserved."
+msgstr ""
+
+#: framework/widgets/widget-business-hours.php:20
+msgid "Ftheme: Business Hours"
+msgstr ""
+
+#: framework/widgets/widget-business-hours.php:23
+msgid "A custom widget that displays business hours."
+msgstr ""
+
+#: framework/widgets/widget-business-hours.php:45
+msgid "Title: "
+msgstr ""
+
+#: framework/widgets/widget-business-hours.php:50
+msgid "Description:"
+msgstr ""
+
+#: framework/widgets/widget-business-hours.php:55
+msgid "Monday-Friday:"
+msgstr ""
+
+#: framework/widgets/widget-business-hours.php:60
+msgid "Saturday:"
+msgstr ""
+
+#: framework/widgets/widget-business-hours.php:65
+msgid "Sunday:"
+msgstr ""
+
+#: framework/widgets/widget-business-hours.php:112
+msgid "Monday-Friday: "
+msgstr ""
+
+#: functions.php:77
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:94
+msgid "Sticky"
+msgstr ""
+
+#: functions.php:122
+msgid "Leave a comment"
+msgstr ""
+
+#: functions.php:122
+msgid "One comment so far"
+msgstr ""
+
+#: functions.php:122
+#, php-format
+msgid "View all % commets"
+msgstr ""
+
+#: functions.php:129 page.php:37 template-full-width.php:37
+msgid "Edit"
+msgstr ""
+
+#: functions.php:145
+msgid "Newer Posts &rarr;"
+msgstr ""
+
+#: functions.php:151
+msgid "&larr; Older Posts"
+msgstr ""
+
+#: functions.php:166
+msgid "Main Widget Area"
+msgstr ""
+
+#: functions.php:168
+msgid "Appears on posts and pages"
+msgstr ""
+
+#: functions.php:177
+msgid "Footer Widget Area"
+msgstr ""
+
+#: functions.php:179
+msgid "Appears on the footer"
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for &quot;%s&quot;"
+msgstr ""
+
+#: tag.php:16
+#, php-format
+msgid "Tag Archives for &quot;%s&quot;"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Ftheme"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "localhost"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Just my first theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Slavik"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://slavikkryt.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page"
+msgstr ""
