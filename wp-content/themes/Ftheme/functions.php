@@ -78,7 +78,7 @@ if ( ! function_exists( 'ftheme_setup' ) ) {
     )
   );
   
-  add_action( 'after_theme_setup', 'alpha_setup' );
+  add_action( 'after_theme_setup', 'ftheme_setup' );
 }
 
 /**
