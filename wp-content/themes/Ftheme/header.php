@@ -26,9 +26,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description" content="<?php bloginfo( 'description' ); ?>">
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="css/style.css">
-
   <!--[if it IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
