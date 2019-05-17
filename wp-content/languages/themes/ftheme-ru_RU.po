@@ -1,0 +1,231 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ftheme\n"
+"POT-Creation-Date: 2019-05-17 15:37+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Slavik <slavikaremenko@gmail.com>\n"
+"Language-Team: Slavichok TEAM!\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:12
+msgid "Error 404 - Nothing Found"
+msgstr "Ошибка 404 - Ничего не найдено"
+
+#: 404.php:14
+msgid "It looks like nothing was found here. Maybe try a search?"
+msgstr "Похоже, что здесь ничего не было найдено. Может, попробуете ёще раз?"
+
+#: archive.php:17
+#, php-format
+msgid "Daily Archives for %s"
+msgstr "Ежедневный архив для %s"
+
+#: archive.php:19
+#, php-format
+msgid "Monthly Archives for %s"
+msgstr "Ежемесячный архив для %s"
+
+#: archive.php:19
+msgctxt "Monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:21
+#, php-format
+msgid "Yearly Archives for %s"
+msgstr "Ежегодный архив для %s"
+
+#: archive.php:21
+msgctxt "Yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:23
+msgid "Archives"
+msgstr "Архивы"
+
+#: author.php:15
+#, php-format
+msgid "All posts by %s."
+msgstr "Все посты %s."
+
+#: category.php:16
+#, php-format
+msgid "Category Archives for &quot;%s&quot;"
+msgstr "Архивы по категориях для &quot;%s&quot;"
+
+#: comments.php:12
+msgid "You cannot access this page directly."
+msgstr "Вы не имеете прямого доступа к этой странице."
+
+#: comments.php:21
+msgid ""
+"This post is password protected. Enter the password to view the comments."
+msgstr "Этот пост защищен паролем. Введите пароль чтобы увидеть комментарий."
+
+#: comments.php:33
+#, php-format
+msgctxt "Comment title"
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: comments.php:47
+msgid "&larr; Older Comments"
+msgstr "&larr; Старые комментарии"
+
+#: comments.php:50
+msgid "Never Comments &rarr;"
+msgstr "Новые комментарии &rarr;"
+
+#: comments.php:59
+msgid "Comments are closed"
+msgstr "Комментарии закриты"
+
+#: content-audio.php:29 content-gallery.php:29 content-image.php:29
+#: content-link.php:13 content-quote.php:13 content-video.php:29 content.php:38
+msgid "Continue reading &rarr;"
+msgstr "Продолжить чтение &rarr;"
+
+#: content-audio.php:40 content-gallery.php:40 content-image.php:40
+#: content-link.php:31 content-video.php:40 content.php:50
+msgid "Written by "
+msgstr "Написано "
+
+#: content-none.php:8
+msgid "Nothing found!"
+msgstr "Ничего не найдено!"
+
+#: footer.php:19
+msgid "All right reserved."
+msgstr "Все права защищены."
+
+#: framework/widgets/widget-business-hours.php:20
+msgid "Ftheme: Business Hours"
+msgstr "Ftheme: Счетчик Бизнес часов (извините за мой ужасный перевод)"
+
+#: framework/widgets/widget-business-hours.php:23
+msgid "A custom widget that displays business hours."
+msgstr ""
+"Кастомный (рукодельный) виджет, что отображает бизнес часы. (мне "
+"действительно очень стыдно за этот перевод)"
+
+#: framework/widgets/widget-business-hours.php:45
+msgid "Title: "
+msgstr "Заглавие: "
+
+#: framework/widgets/widget-business-hours.php:50
+msgid "Description:"
+msgstr "Описание:"
+
+#: framework/widgets/widget-business-hours.php:55
+msgid "Monday-Friday:"
+msgstr "Понедельник-Пятница:"
+
+#: framework/widgets/widget-business-hours.php:60
+msgid "Saturday:"
+msgstr "Субота:"
+
+#: framework/widgets/widget-business-hours.php:65
+msgid "Sunday:"
+msgstr "Неделя:"
+
+#: framework/widgets/widget-business-hours.php:112
+msgid "Monday-Friday: "
+msgstr "Понедельник-Пятница: "
+
+#: functions.php:77
+msgid "Main Menu"
+msgstr "Главное меню"
+
+#: functions.php:94
+msgid "Sticky"
+msgstr "Липкий"
+
+#: functions.php:122
+msgid "Leave a comment"
+msgstr "Оставьте комментарий"
+
+#: functions.php:122
+msgid "One comment so far"
+msgstr "Один комментарий так далеко"
+
+#: functions.php:122
+#, php-format
+msgid "View all % commets"
+msgstr "Показать все % c комментарии"
+
+#: functions.php:129 page.php:37 template-full-width.php:37
+msgid "Edit"
+msgstr "Редактировать"
+
+#: functions.php:145
+msgid "Newer Posts &rarr;"
+msgstr "Новые посты &rarr;"
+
+#: functions.php:151
+msgid "&larr; Older Posts"
+msgstr "&larr; Старые посты"
+
+#: functions.php:166
+msgid "Main Widget Area"
+msgstr "Главный виджет"
+
+#: functions.php:168
+msgid "Appears on posts and pages"
+msgstr "Показываеться на постах или страницах"
+
+#: functions.php:177
+msgid "Footer Widget Area"
+msgstr "Виджеты нижнего колонтитула"
+
+#: functions.php:179
+msgid "Appears on the footer"
+msgstr "Показывается в футере"
+
+#: search.php:16
+#, php-format
+msgid "Search Results for &quot;%s&quot;"
+msgstr "Найдены результаты за запросом &quot;%s&quot;"
+
+#: tag.php:16
+#, php-format
+msgid "Tag Archives for &quot;%s&quot;"
+msgstr "Архив тегов для &quot;%s&quot;"
+
+#. Theme Name of the plugin/theme
+msgid "Ftheme"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "localhost"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Just my first theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Slavik"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://slavikkryt.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page"
+msgstr ""
