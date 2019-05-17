@@ -186,4 +186,28 @@ if ( ! function_exists( 'ftheme_post_meta' ) ) {
      }
      add_action( 'widgets_init', 'ftheme_widget_init' );
    }
+
+  /**
+  * 8.0 - Include the generated CSS in the page header. 
+  */
+  if ( ! function_exists( 'ftheme_load_wp_head' ) ) {
+    function ftheme_load_wp_head() {
+      // Get the logo
+      $logo = IMAGES . '/logo.png';
+
+      $logo_size = getimagesize( $logo );
+      ?>
+        <!-- Logo CSS -->
+        <style>
+          .site-logo a {
+            background: transparent url( <?php echo $logo; ?> ) 0 0 no-repeat;
+            width: <?php echo $logo_size[0] ?>px;
+            height: <?php echo $logo_size[1] ?>px;
+            display: inline-block;
+          }          
+        </style>
+      <?php
+    }
+    add_action( 'wp_head', 'ftheme_load_wp_head' );
+  }
   ?>
